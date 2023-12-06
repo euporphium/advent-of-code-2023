@@ -2,5 +2,8 @@
 # Visit https://adventofcode.com/2023 to find challenges and inputs
 /input
 
+# Don't worry, it's just Prettier
+node_modules
+
 # JetBrains
 .idea
