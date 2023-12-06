@@ -1,4 +1,4 @@
-import getLines from '../util/getLines.js';
+import getLines from './util/getLines.js';
 
 const lines = await getLines(2);
 
