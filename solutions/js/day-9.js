@@ -38,7 +38,7 @@ function solvePart2() {
 
     function addPrevValue(arr) {
       let last = arr.at(-1);
-      if (last[0] === 0 && allEqual(last)) {
+      if (allEqual(last)) {
         for (let i = arr.length - 1; i > 0; i--) {
           arr[i - 1].unshift(arr[i - 1][0] - arr[i][0]);
         }
